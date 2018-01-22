@@ -9,7 +9,7 @@
     "lint": "tslint ./src/**/*.ts -t verbose",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve": "lite-server -c=bs-config.json",
-    "build:watch": "tsc -p -w"
+    "build:watch": "tsc -p . -w"
   },
   "keywords": [],
   "author": "",
